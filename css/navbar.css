@@ -21,6 +21,7 @@ justify-content: space-between;
 padding: 20px;
 background-color: teal;
 color: #ffffff;
+z-index: 200;
 }
 
 .nav-links a {
