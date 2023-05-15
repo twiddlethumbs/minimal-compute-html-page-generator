@@ -29,8 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 1.75rem;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  color: #f7f7f7; }
+  margin-bottom: 1.5rem; }
 
 h2 {
   font-size: 1.625rem;
@@ -52,8 +51,7 @@ h4 {
   font-size: 1.125rem; }
 
 h5 {
-  font-size: 1.0625rem;
-  color: #cfcfcf; }
+  font-size: 1.0625rem; }
 
 /* end of the common css - the css below is for more specific blocks*/
 .topnav {
