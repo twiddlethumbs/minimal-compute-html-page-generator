@@ -61,7 +61,7 @@ h5 {
 }
 
 .content {
-	padding: 30px;	
+	padding: 10px;	
 }
 
 
@@ -72,6 +72,7 @@ h5 {
 	background:#EEEEEE;
 	width:100%;
 	padding: 30px;
+	border-top: solid darkgray 2px;
 	} 
 /* this adds some space between links for when they are in the same line - the class must be added to each link */
 .footer-link {margin-right:40px;}
