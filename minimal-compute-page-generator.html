@@ -6,7 +6,18 @@
   <title>Minimal Compute Page Generator</title>
   
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  
+
+<script src="js/top-menu.js"></script>
+<script src="js/footer-menu.js"></script>
+
+
+<link rel="stylesheet" href="css/motif.css">
+<link rel="stylesheet" href="css/navbar.css">
+
+
+	
+	
+	
   <script src="./tinymce/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
   <script>
   /*
@@ -49,7 +60,12 @@
   }
   </style>
 </head>
-<body>
+<body onload='topnav(); footernav();'>
+
+<div id='topnav'></div>
+
+<div class='content'>
+	
 <div class='container' style="margin-top:24px;">
 <div class='row'>
 <div class="input-group col-md-6">
@@ -213,7 +229,7 @@ https://schema.org/Thesis
 	var editor = tinymce.get('mytextarea');
 	var text = html_start + editor.getContent() + html_end;
 
-// TESTING - the inputs will need commas and carriage returns removed - maybe not due to the encodeURIComponent? need to test
+// the inputs will need commas and carriage returns removed
 
 // TESTING - remove when done
 // alert(text);
@@ -231,6 +247,9 @@ https://schema.org/Thesis
 
     });
   </script>
+</div>
+
+<div id='footernav'></div>
   
   
 </body>
