@@ -56,7 +56,9 @@ h5 {
   color: #cfcfcf; }
 
 /* end of the common css - the css below is for more specific blocks*/
-
+.topnav {
+	min-height:100px;
+}
 
 .content {
 	padding: 30px;	
