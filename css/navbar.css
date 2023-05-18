@@ -51,7 +51,7 @@ padding: 5px 14px;
 }
 
 /* DROPDOWN MENU */
-.services {
+.dropdown_anchor {
 position: relative; 
 }
 
@@ -78,9 +78,13 @@ text-align: center;
 background-color: #4c9e9e;
 }
 
-.services:hover .dropdown {
+.dropdown_anchor:hover .dropdown {
 display: block;
 }
+
+
+
+
 
 /* RESPONSIVE NAVBAR MENU STARTS */
 
@@ -119,18 +123,16 @@ transition: 0.3s ease;
 margin-top: 12px;
 }
 
-input[type=checkbox]:checked ~ .menu {
-display: block;
-}
+input[type=checkbox]:checked ~ .menu { display: block; } .dropdown{ display: block; left:0;  width: 100%; } .dropdown li {width: 100%}
 
 .hamburger {
 display: block;
 }
 
 .dropdown {
-left: 50%;
+
 top: 30px;
-transform: translateX(35%);
+
 }
 
 .dropdown li:hover {
